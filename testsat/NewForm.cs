@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace testsat
 {
-    public partial class Form1 : Form
+    public partial class NewForm : Form
     {
-        public Form1()
+        public NewForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            NewForm NewForm= new NewForm();
-            NewForm.ShowDialog();
         }
     }
 }
